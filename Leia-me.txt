@@ -1,0 +1,111 @@
+============================================================
+ NFSCVIP - Need for Speed Carbon (PS2) no PC
+ Pacote portatil com controle de PS2 + base para mods
+============================================================
+
+O QUE E ISTO
+------------
+- Versao "VIP" no mesmo espirito do MC3VIP, mas para o NFS Carbon de PS2.
+- O MC3VIP usa um porte nativo recompilado do jogo de Xbox. O Carbon de PS2
+  nao tem porte nativo, entao aqui usamos o PCSX2 2.8.2 em modo portatil.
+- Tudo fica dentro desta pasta: emulador, configuracao, saves e addons.
+- Nada e instalado no Windows.
+
+REQUISITOS
+----------
+- Windows 10/11 64 bits.
+- BIOS de PS2 PAL instalada: SCPH-70004 (V12 PAL) em PCSX2\bios\.
+- A ISO do NFS Carbon (Europe/Australia) em iso\ (nao incluida no repositorio; veja iso\LEIA-ME.txt).
+- Placa de video com Vulkan (o pacote ja vem configurado em Vulkan, 2x).
+
+COMO JOGAR
+----------
+1. Execute "Iniciar NFS Carbon com controle PS2.exe".
+2. O jogo abre em tela cheia. ESC abre o menu do PCSX2.
+
+  A BIOS ja esta configurada em PCSX2\inis\PCSX2.ini
+  ([Filenames] BIOS = scph70004.bin). Nao precisa configurar nada.
+
+  Os lancadores sao .exe (nao .bat), para nao abrir janela de console
+  nem esbarrar em bloqueio de script do Windows.
+
+CONTROLE (DualShock 2 via adaptador USB)
+----------------------------------------
+  D-Pad ......... D-Pad
+  Analogo esq. .. direcao
+  Analogo dir. .. acelerar/frear (quando o jogo usa)
+  X (Cross) ..... acelerar / confirmar
+  Quadrado ...... frear / reverter
+  Triangulo ..... nitro / camera
+  Circulo ....... acao / voltar
+  L1 / R1 ....... trocar de carro / olhar
+  L2 / R2 ....... freio / acelerar
+  Select ........ mapa / menu
+  Start ......... pausa
+
+  Os botoes exatos seguem o padrao do jogo. Se precisar ajustar:
+  "Configurar PCSX2.exe" > Settings > Controllers.
+
+  O mapeamento do adaptador DragonRise/Gasia esta em:
+    gamecontrollerdb.txt
+    PCSX2\game_controller_db.txt
+    PCSX2\inis\PCSX2.ini  ([Pad1])
+
+  Sem controle? Ha um perfil de teclado pronto em:
+    addons\inputprofiles\Teclado.ini
+  Carregue em "Configurar PCSX2.exe" > Settings > Controllers >
+  Load Profile. As teclas estao descritas no LEIA-ME dessa pasta.
+
+SAVES E PASTAS
+--------------
+- Memory card: SaveData\NFSCarbon.ps2  (criado no primeiro boot)
+- Savestates:  SaveData\Savestates\
+- Capturas:    Capturas\  (F8) e Capturas\Videos\
+- Nao misture saves de outras versoes/regioes do jogo.
+
+  As pastas ficam na raiz do pacote (nao dentro de PCSX2\).
+  O PCSX2.ini aponta para elas com caminhos relativos:
+    Snapshots   = ../Capturas
+    Savestates  = ../SaveData/Savestates
+    MemoryCards = ../SaveData
+    Textures    = ../addons/texturas
+    Cheats      = ../addons/cheats
+    Patches     = ../addons/patches
+    InputProfiles = ../addons/inputprofiles
+
+GRAFICOS
+--------
+- Renderer Vulkan, resolucao interna 2x, 16:9.
+- Se a imagem ficar esticada, ligue a opcao de widescreen nas opcoes do
+  jogo ou mude o Aspect Ratio para "Auto 4:3/3:2" no PCSX2.
+- Para mudar: "Configurar PCSX2.exe" > Settings > Graphics.
+- F9 alterna para o renderizador de software (mais lento, mais preciso).
+- F11 / Alt+Enter alterna tela cheia.
+
+MODS
+----
+- A pasta addons\ ja esta preparada. Veja MODS.md para o guia completo.
+- Nenhum mod esta ativo por enquanto (terreno preparado, como pedido).
+
+  addons\texturas\       -> texturas (PCSX2 texture replacement, sem tocar na ISO)
+  addons\carros\         -> carros (mods de ISO, pipeline futuro)
+  addons\graficos\       -> ReShade/presets e ajustes visuais
+  addons\cheats\         -> cheats .pnach
+  addons\patches\        -> patches .pnach
+  addons\inputprofiles\  -> perfis de controle do PCSX2
+
+VERIFICACAO
+-----------
+- Ferramentas\Verificar instalacao.exe mostra o que falta.
+
+AVISO LEGAL
+-----------
+- Este pacote nao inclui o jogo (ISO).
+- A BIOS foi instalada a partir do pacote fornecido pelo usuario.
+- Use apenas com copias e dumps que voce possui.
+- PCSX2 e software livre (GPL-3.0); creditos aos desenvolvedores.
+
+BASEADO EM
+----------
+- Estrutura inspirada no MC3VIP (addons + save + launcher + controle PS2),
+  mas com tecnologia diferente: PCSX2 em vez de recompilacao nativa.

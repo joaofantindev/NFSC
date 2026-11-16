@@ -1,0 +1,18 @@
+TEXTURAS - NFS Carbon (SLES-54321)
+==================================
+
+Esta e a pasta que o PCSX2 usa para substituir texturas sem alterar a ISO.
+
+  dumps\         O PCSX2 grava aqui as texturas originais (PNG)
+  replacements\  Coloque aqui os PNGs substitutos, com o mesmo nome do dump
+
+Como usar:
+1. Abra "Configurar PCSX2.exe".
+2. Settings > Graphics > Texture Replacement.
+3. Ligue "Dump Textures" e entre no jogo ate a textura desejada aparecer.
+4. Edite o PNG em dumps\.
+5. Copie o PNG editado para replacements\ mantendo o nome.
+6. Desligue "Dump Textures". "Load Textures" ja esta ligado.
+
+Packs prontos: copie o conteudo de replacements do pack para dentro de
+replacements\ desta pasta.

@@ -1,0 +1,17 @@
+ISO - Need for Speed Carbon (Europe)
+====================================
+
+A ISO do jogo NÃO está incluída neste repositório. Coloque o arquivo nesta pasta com o nome exato:
+
+  Need for Speed - Carbon (Europe, Australia).iso
+
+Caminho final esperado:
+  iso\Need for Speed - Carbon (Europe, Australia).iso
+
+Onde obter (exemplo indicado pelo autor do pacote):
+  https://romsfun.com/roms/playstation-2/need-for-speed-carbon.html
+
+Observações:
+- Use apenas uma cópia do jogo que você possua legalmente.
+- Serial do jogo: SLES-54321 (PAL).
+- Após copiar a ISO, execute "Instalar.exe" (ou "Instalar.cmd" / "Ferramentas\Verificar instalacao.exe") para confirmar.

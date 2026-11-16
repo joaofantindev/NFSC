@@ -1,0 +1,10 @@
+SAVES - NFS Carbon
+==================
+
+  NFSCarbon.ps2     Memory card do PS2 (criada no primeiro boot)
+  Savestates\       Savestates rapidos do PCSX2 (F1 salva, F3 carrega)
+
+Dicas:
+- Nao use o mesmo memory card com outra regiao/versao do jogo.
+- Faca backup desta pasta antes de testar mods.
+- Se trocar de mod e o save ficar estranho, volte o backup.

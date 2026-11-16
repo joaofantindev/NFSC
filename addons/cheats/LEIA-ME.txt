@@ -1,0 +1,16 @@
+CHEATS - codigos .pnach
+=======================
+
+Coloque aqui arquivos .pnach de cheat (opcionais).
+
+Importante: no PCSX2.ini atual, "Enable Cheats" esta DESLIGADO.
+Para usar, abra "Configurar PCSX2.exe" e ligue em Settings > Emulation
+(ou mude EnableCheats = true em PCSX2\inis\PCSX2.ini).
+
+Formato:
+  gametitle=NFS Carbon (SLES-54321)
+  // patch=1,EE,ENDERECO,extended,VALOR
+
+O nome do arquivo deve ser o CRC do jogo em maiusculas + .pnach.
+Para este pacote (SLES-54321, PAL-E) o CRC e ECCEEC09, entao o arquivo
+fica: ECCEEC09.pnach

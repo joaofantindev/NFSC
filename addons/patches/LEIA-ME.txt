@@ -1,0 +1,16 @@
+PATCHES - patches .pnach
+========================
+
+Patches sao aplicados automaticamente quando o jogo inicia
+(EnablePatches ja esta ligado no PCSX2.ini).
+
+Use esta pasta para correcoes de compatibilidade, widescreen extra,
+desbloqueios de 60 Hz etc. O formato e o mesmo dos cheats:
+
+  gametitle=NFS Carbon (SLES-54321)
+  // patch=1,EE,ENDERECO,extended,VALOR
+
+Prefira patches a cheats quando a mudanca deve valer sempre.
+O nome do arquivo deve ser o CRC do jogo + .pnach.
+
+Nada aplicado por enquanto.

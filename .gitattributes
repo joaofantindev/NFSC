@@ -1,0 +1,26 @@
+# Manter finais de linha consistentes em scripts/textos
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.txt text
+*.md  text
+*.ini text
+*.cs  text eol=crlf
+
+# Binários
+*.exe binary
+*.dll binary
+*.ps2 binary
+*.p2s binary
+*.bin binary
+*.nvm binary
+*.mec binary
+*.erom binary
+*.qm  binary
+*.png binary
+*.jpg binary
+*.ico binary
+*.ttf binary
+*.otf binary
+*.pdf binary
+*.zip binary

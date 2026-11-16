@@ -1,0 +1,34 @@
+# Arquivos gerados pelo emulador / máquina local
+PCSX2/cache/
+PCSX2/covers/
+PCSX2/logs/
+PCSX2/inis/playtime.dat
+PCSX2/inis/debuggerlayouts/
+PCSX2/inis/debuggersettings/
+
+# Saves e capturas pessoais (descomente se quiser versionar um save inicial)
+SaveData/*.ps2
+SaveData/Savestates/
+Capturas/*
+!Capturas/.gitkeep
+
+# ISO do jogo (não incluída no repositório - adicione manualmente)
+iso/*.iso
+!iso/LEIA-ME.txt
+
+# BIOS de PS2 (copyright Sony) - não deve ser distribuído
+PCSX2/bios/*.bin
+PCSX2/bios/*.rom*
+PCSX2/bios/*.erom
+PCSX2/bios/*.nvm
+PCSX2/bios/*.mec
+PCSX2/bios/*IRX*
+
+# Sistema
+Thumbs.db
+Desktop.ini
+.DS_Store
+*.tmp
+
+# Saídas temporárias
+*.log

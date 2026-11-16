@@ -1,0 +1,63 @@
+FERRAMENTAS
+===========
+
+Verificar instalacao.exe
+-----------------------
+Confere se o pacote esta completo:
+  - PCSX2 e modo portatil
+  - BIOS do PS2 em PCSX2\bios\
+  - ISO em iso\
+  - PCSX2.ini
+  - pastas SaveData, Capturas e addons
+  - perfil de teclado addons\inputprofiles\Teclado.ini
+  - BIOS PAL (scph70004.bin) selecionada no PCSX2.ini
+  - mapeamento do controle PS2 (DragonRise/Gasia) no banco SDL
+  - binds do pad em SDL-0
+
+Execute com dois cliques. Ele apenas le os arquivos: nao altera nada.
+
+Por que .exe e nao .bat
+----------------------
+Os lancadores foram compilados em C# para evitar problemas de .bat no
+Windows (janela de console, SmartScreen, execucao bloqueada por politica).
+Nao precisam de instalacao: usam o .NET Framework que ja vem no Windows 10/11.
+
+- "Iniciar NFS Carbon com controle PS2.exe" abre o jogo em tela cheia.
+- "Configurar PCSX2.exe" abre o PCSX2 para ajustar video/audio/controle.
+- "Verificar instalacao.exe" mostra esta checagem.
+- "Instalar.exe" (na raiz do pacote) executa o instalador (Instalar.ps1).
+
+Os fontes ficam em Ferramentas\fontes\ (Launcher.cs, Configurar.cs,
+Verificar.cs, Instalar.cs). Se quiser recompilar:
+
+  C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe /target:winexe ^
+    /out:"Iniciar NFS Carbon com controle PS2.exe" ^
+    /reference:System.Windows.Forms.dll "Ferramentas\fontes\Launcher.cs"
+
+O QUE AINDA NAO EXISTE AQUI
+---------------------------
+- Ferramenta de dump/replace de texturas: use o proprio PCSX2
+  (Settings > Graphics > Texture Replacement).
+- Ferramenta para extrair/reempacotar ZZDATA (carros): ainda nao incluida.
+  Veja MODS.md para o caminho tecnico.
+- Editor de cheats/patches: os arquivos .pnach vao em addons\cheats\
+  e addons\patches\ e sao habilitados no PCSX2.
+
+ISO DO JOGO
+-----------
+A ISO nao e distribuida no repositorio. Coloque-a em iso\ com o nome:
+
+  Need for Speed - Carbon (Europe, Australia).iso
+
+Veja iso\LEIA-ME.txt (e o README.md) para instrucoes e link de download.
+Use apenas uma copia do jogo que voce possui.
+
+- Para mods que reescrevem a ISO, faca uma copia antes e trabalhe na copia.
+- Nao sobrescreva a ISO original do seu acervo sem backup.
+
+DICAS
+-----
+- Logs do emulador: PCSX2\logs\
+- Saves: SaveData\
+- Capturas: Capturas\
+- Configuracao do PCSX2: PCSX2\inis\PCSX2.ini

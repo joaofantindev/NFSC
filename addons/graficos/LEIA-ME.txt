@@ -1,0 +1,14 @@
+GRAFICOS - presets e ReShade
+============================
+
+Pasta reservada para ajustes visuais que nao fazem parte do PCSX2 padrao.
+
+Sugestoes:
+- Salve aqui seus presets de ReShade, capturas de configuracao e anotacoes
+  de valores (resolucao interna, CAS, FXAA, ShadeBoost).
+- ReShade nao esta incluido. A injecao, quando fizermos, vai na pasta
+  PCSX2\ (d3d11.dll / dxgi.dll / opengl32.dll conforme o renderer).
+- Alternativa sem injecao: Settings > Graphics do PCSX2
+  (CAS, FXAA, ShadeBoost, dithering, filtro de textura).
+
+Nada aplicado por enquanto.

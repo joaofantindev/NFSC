@@ -1,0 +1,19 @@
+CARROS - mods de ISO
+====================
+
+Ainda nao ha mods de carro aqui. Esta pasta define o formato para o futuro.
+
+Cada mod de carro fica em sua propria subpasta:
+
+  carros\<nome-do-mod>\
+      conteudo\      arquivos que serao injetados (mesma arvore do ZZDATA)
+      mod.json       metadados (nome, autor, versao, arquivos, CRC)
+      LEIA-ME.txt    instrucoes do autor
+
+Por que ISO: no PS2, carros/pistas ficam dentro de NFS\ZZDATA0..3.BIN.
+Substituir carro exige extrair, trocar os arquivos e reempacotar a ISO.
+
+Enquanto o pipeline nao existe:
+- NAO sobrescreva a ISO original.
+- Para testes, copie a ISO para outra pasta e aponte o launcher para a copia.
+- Mantenha uma ISO limpa para voltar atras.

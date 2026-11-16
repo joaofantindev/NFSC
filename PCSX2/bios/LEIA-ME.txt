@@ -1,0 +1,23 @@
+BIOS DO PS2
+===========
+
+BIOS instalada:
+  scph70004.bin  -> SCPH-70004, V12 PAL (Europa), versao 02.00 de 14/06/2004
+
+Arquivos que acompanham (mesmo nome-base):
+  scph70004.erom  -> DVD Player
+  scph70004.nvm   -> configuracao nao-volatil
+  scph70004.rom1  -> ROM1
+  scph70004.rom2  -> ROM2
+
+Ela esta selecionada em PCSX2\inis\PCSX2.ini:
+  [Filenames]
+  BIOS = scph70004.bin
+
+- O PCSX2 usa o nome-base para achar os arquivos auxiliares.
+- Se voce trocar a BIOS, mantenha os arquivos com o mesmo nome-base.
+- A BIOS foi adicionada a partir do pacote fornecido pelo usuario.
+- Use apenas dumps de BIOS de um console que voce possui.
+
+Se o launcher avisar que a BIOS esta faltando, e porque nenhum .bin
+foi encontrado aqui ou o nome em [Filenames] nao confere.

@@ -1,0 +1,37 @@
+PERFIS DE CONTROLE
+==================
+
+Perfis de controle salvos pelo PCSX2 caem nesta pasta.
+
+Perfis incluidos:
+  Teclado.ini  -> alternativa sem controle (teclado)
+
+O perfil padrao ja esta embutido em PCSX2\inis\PCSX2.ini:
+DualShock 2 via adaptador USB (DragonRise/Gasia), device SDL-0.
+
+TECLADO (Teclado.ini)
+---------------------
+  Setas ......... D-Pad
+  I / L / K / J . Triangulo / Circulo / X / Quadrado
+  Backspace ..... Select
+  Enter ......... Start
+  Q / 1 / E / 3 . L1 / L2 / R1 / R2
+  2 / 4 ......... L3 / R3
+  W / A / S / D . analogico esquerdo
+  T / F / G / H . analogico direito
+
+COMO USAR UM PERFIL
+-------------------
+1. Abra "Configurar PCSX2.exe".
+2. Settings > Controllers.
+3. Em "Configuration", use "Load Profile" e escolha o perfil.
+   Para voltar ao controle de PS2, carregue o perfil salvo com os binds
+   SDL-0 (ou restaure o PCSX2.ini original).
+
+Para criar um perfil alternativo:
+1. Abra "Configurar PCSX2.exe".
+2. Settings > Controllers.
+3. Ajuste os binds e use "Save Profile".
+
+Assim da para ter, por exemplo, um perfil "PS2" e um "Teclado" sem
+sobrescrever um ao outro.

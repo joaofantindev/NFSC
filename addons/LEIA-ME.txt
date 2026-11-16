@@ -1,0 +1,14 @@
+ADDONS - NFSCVIP
+================
+
+Esta pasta guarda tudo que e "mod" ou ajuste extra. A ideia e poder ligar e
+desligar cada coisa sem mexer na ISO e sem misturar saves.
+
+  texturas\       Texturas substitutas do PCSX2 (nao destrutivo)
+  carros\         Mods de carro (ISO/ZZDATA - pipeline futuro)
+  graficos\       Presets, ReShade e ajustes visuais
+  cheats\         Codigos .pnach opcionais
+  patches\        Patches .pnach aplicados automaticamente
+  inputprofiles\  Perfis de controle do PCSX2
+
+Estado atual: vazio de proposito. Veja MODS.md na raiz do pacote.
